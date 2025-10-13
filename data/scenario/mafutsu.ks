@@ -5,8 +5,7 @@
 *mafutsu
 
 [tb_show_message_window  ]
-[chara_part  name="真経津晨"  time="0"  te="pa-.png"  ]
-[chara_show  name="真経津晨"  time="1000"  wait="true"  left="470"  storage="chara/1/mafu01_Ki_a.png"  width="320"  height="720"  top=""  reflect="false"  ]
+[chara_show  name="真経津晨"  time="1000"  wait="true"  left="470"  storage="chara/1/mafu01_ki.png"  width="320"  height="720"  top=""  reflect="false"  ]
 [tb_image_show  time="0"  storage="default/UI.png"  width="408"  height="580"  x="648"  y="-176"  _clickable_img=""  name="img_6"  ]
 [jump  storage="mafutsu.ks"  target="*MQ_end"  cond="f.MQ==0"  ]
 [call  storage="mafutsu.ks"  target="*remainQ2"  ]
@@ -45,8 +44,7 @@
 *MQ_return
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[chara_part  name="真経津晨"  time="0"  te="pa-.png"  ]
-[chara_mod  name="真経津晨"  time="0"  cross="false"  storage="chara/1/mafu01_Ki_a.png"  ]
+[chara_mod  name="真経津晨"  time="0"  cross="false"  storage="chara/1/mafu01_ki.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [jump  storage="mafutsu.ks"  target="*MQ_end"  cond="f.MQ==0"  ]
 [tb_start_text mode=1 ]
@@ -112,7 +110,7 @@
 
 [_tb_end_text]
 
-[chara_part  name="真経津晨"  time="100"  te="gu-.png"  ]
+[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu01_raku_gu.png"  ]
 [tb_start_text mode=1 ]
 「じゃんけんに勝ったら、ボクが知ってること教えてあげよっか？」[p]
 #獅子神
@@ -129,7 +127,7 @@
 [s  ]
 *rock
 
-[chara_part  name="真経津晨"  time="100"  te="pa-.png"  ]
+[chara_mod  name="真経津晨"  time="200"  cross="false"  storage="chara/1/mafu01_raku.png"  ]
 [tb_start_text mode=1 ]
 #真経津
 「パー！」[p]
@@ -160,7 +158,7 @@
 [jump  storage="mafutsu.ks"  target="*MQ_return"  ]
 *paper
 
-[chara_part  name="真経津晨"  time="100"  te="tyoki.png"  ]
+[chara_mod  name="真経津晨"  time="200"  cross="false"  storage="chara/1/mafu01_raku_choki.png"  ]
 [tb_start_text mode=1 ]
 #真経津
 「チョキ！」[p]
@@ -185,7 +183,7 @@
 
 [_tb_end_text]
 
-[chara_part  name="真経津晨"  time="100"  te="gu-.png"  ]
+[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu01_raku_gu.png"  ]
 [tb_start_text mode=1 ]
 「じゃーんけん」[p]
 [_tb_end_text]
@@ -198,7 +196,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mahu04_gyo.png"  ]
+[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mahu04_gyo_gu.png"  ]
 [tb_start_text mode=1 ]
 #真経津
 「！？」[p]
@@ -210,11 +208,9 @@
 「でも、負けは負けだからボクの知ってることを教えるよ」[p]
 #獅子神
 「おぅ」[p]
-
 [_tb_end_text]
 
-[chara_part  name="真経津晨"  time="100"  te="pa-.png"  ]
-[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu01_raku_a.png"  ]
+[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu01_raku.png"  ]
 [tb_start_text mode=1 ]
 #真経津
 「プリンはね、もうないよ」[p]
@@ -227,7 +223,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu02_do_a.png"  ]
+[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu02_do.png"  ]
 [tb_start_text mode=1 ]
 #真経津
 「違うよ、ボクは冷蔵庫に近づいてないもん」[p]
@@ -238,7 +234,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu01_Ki_a.png"  ]
+[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu01_ki.png"  ]
 [tb_start_text mode=1 ]
 #真経津
 「ボクは誰なのか知らな～い。でもプリンがもう食べられちゃってないことは知ってるよ」[p]
@@ -248,7 +244,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu01_raku_a.png"  ]
+[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu01_raku.png"  ]
 [tb_start_text mode=1 ]
 #真経津
 「すぐ答えがわかる犯人探しゲームなんて面白くないでしょ？」[p]
@@ -355,7 +351,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu02_do_a.png"  ]
+[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu02_do.png"  ]
 [tb_start_text mode=1 ]
 #真経津
 「確かにボクは村雨さんが来るまではずっと一人だったよ？でもそれだけで盗み食い犯扱いは酷いよ」[p]
@@ -372,7 +368,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu01_raku_a.png"  ]
+[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu01_raku.png"  ]
 [tb_start_text mode=1 ]
 #真経津
 「他に腐らない場所ってない？」[p]

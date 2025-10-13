@@ -10,8 +10,7 @@
 [freeimage layer="2"]
 [_tb_end_tyrano_code]
 
-[chara_part  name="真経津晨"  time="0"  te="pa-.png"  ]
-[chara_show  name="真経津晨"  time="1000"  wait="true"  storage="chara/1/mafu01_Ki_a.png"  width="320"  height="720"  left="1"  ]
+[chara_show  name="真経津晨"  time="1000"  wait="true"  storage="chara/1/mafu01_ki.png"  width="320"  height="720"  left="1"  ]
 [tb_start_text mode=1 ]
 #真経津
 「犯人見つかったって？」[p]
@@ -71,7 +70,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu01_Ki_a.png"  ]
+[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu01_ki.png"  ]
 [tb_start_text mode=1 ]
 #真経津
 「あれ？プリンって5個じゃないの？あと一個は？」[p]
@@ -256,8 +255,7 @@ root4『未解決』　　(完)[p]
 「ねぇ、獅子神さん」[p]
 [_tb_end_text]
 
-[chara_part  name="真経津晨"  time="0"  te="pa-.png"  ]
-[chara_show  name="真経津晨"  time="1000"  wait="true"  storage="chara/1/mafu01_raku_a.png"  width="320"  height="720"  left="470"  ]
+[chara_show  name="真経津晨"  time="1000"  wait="true"  storage="chara/1/mafu01_raku.png"  width="320"  height="720"  left="470"  ]
 [tb_start_text mode=1 ]
 #真経津
 「獅子神さんこそ、何してたの？」[p]
@@ -435,7 +433,7 @@ root4『未解決』　　(完)[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[chara_show  name="真経津晨"  time="1000"  wait="true"  storage="chara/1/mafu01_Ki_a.png"  width="320"  height="720"  left="470"  ]
+[chara_show  name="真経津晨"  time="1000"  wait="true"  storage="chara/1/mafu01_ki.png"  width="320"  height="720"  left="470"  ]
 [tb_start_text mode=1 ]
 #真経津
 「見つけた～！！！」[p]

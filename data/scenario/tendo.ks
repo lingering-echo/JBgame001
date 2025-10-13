@@ -329,7 +329,7 @@
 [_tb_end_tyrano_code]
 
 [bg  time="1000"  method="crossfade"  storage="kitchen.png"  ]
-[quake  time="1000"  count="3"  hmax="10"  wait="false"  ]
+[quake  time="300"  count="3"  hmax="10"  wait="false"  ]
 [tb_start_text mode=1 ]
 #獅子神
 「あ？」[p]

@@ -1,6 +1,6 @@
 ;=========キャラクター事前定義情報 
 ;真経津晨
-[chara_new  name="真経津晨"  jname="真経津晨"  storage="chara/1/mafu01_Ki_a.png"  ]
+[chara_new  name="真経津晨"  jname="真経津晨"  storage="chara/1/mafu01_ki.png"  ]
 ;獅子神敬一
 [chara_new  name="獅子神敬一"  jname="獅子神敬一"  storage="chara/2/sisi01_do.png"  ]
 ;村雨礼二

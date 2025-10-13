@@ -41,7 +41,6 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[chara_part  name="真経津晨"  time="0"  te="pa-.png"  ]
 [chara_show  name="真経津晨"  time="1000"  wait="true"  storage="chara/1/mahu04_gyo.png"  width="320"  height="720"  left="50"  ]
 [tb_start_text mode=1 ]
 #真経津
@@ -87,7 +86,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[chara_show  name="真経津晨"  time="1000"  wait="true"  storage="chara/1/mafu01_Ki_a.png"  width="320"  height="720"  left="150"  ]
+[chara_show  name="真経津晨"  time="1000"  wait="true"  storage="chara/1/mafu01_ki.png"  width="320"  height="720"  left="150"  ]
 [tb_start_text mode=1 ]
 #真経津
 「消えたプリンを探せ！って感じだね」[p]

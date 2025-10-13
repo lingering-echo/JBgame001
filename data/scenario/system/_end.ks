@@ -5,7 +5,7 @@
 [preload  storage="./data/fgimage/chara/5/yumi03_ai.png"  ]
 [preload  storage="./data/fgimage/chara/3/same04_raku.png"  ]
 [preload  storage="./data/fgimage/chara/4/reme03_raku.png"  ]
-[preload  storage="./data/fgimage/chara/1/mafu01_Ki_a.png"  ]
+[preload  storage="./data/fgimage/chara/1/mafu01_ki.png"  ]
 [preload  storage="./data/fgimage/chara/5/yumi04_raku.png"  ]
 [preload  storage="./data/bgimage/39.png"  ]
 [preload  storage="./data/bgimage/kitchen.png"  ]
