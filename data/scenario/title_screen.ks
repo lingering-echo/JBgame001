@@ -12,12 +12,12 @@
 
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
-[bg  storage="title.jpg"  ]
+[bg  storage="title.png"  ]
 [mask_off  time="0"  effect="fadeOut"  ]
 *title2
 
-[glink  color="btn_01_white"  text="START"  x="118"  y="402"  size="20"  target="*start"  width="150"  height=""  _clickable_img=""  ]
-[glink  color="btn_01_purple"  storage="omake.ks"  size="20"  text="おまけ"  x="114"  y="531"  width="150"  height=""  _clickable_img=""  target="*omake_top"  ]
+[glink  color="btn_01_white"  text="START"  x="230"  y="380"  size="20"  target="*start"  width="150"  height=""  _clickable_img=""  ]
+[glink  color="btn_01_black"  storage="omake.ks"  size="20"  text="おまけ"  x="230"  y="465"  width="150"  height=""  _clickable_img=""  target="*omake_top"  ]
 [s  ]
 *start
 

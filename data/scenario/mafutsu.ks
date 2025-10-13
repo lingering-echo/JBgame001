@@ -343,6 +343,11 @@
 *kuro
 
 [call  storage="mafutsu.ks"  target="*remainQ"  ]
+[tb_start_tyrano_code]
+[freeimage layer="2"]
+[_tb_end_tyrano_code]
+
+[tb_image_hide  time="0"  ]
 [tb_start_text mode=1 ]
 #獅子神
 「オメーだけアリバイが弱いんだよ」[p]

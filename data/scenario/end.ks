@@ -223,7 +223,7 @@ root4『未解決』　　(完)[p]
 [tb_hide_message_window  ]
 [chara_hide_all  time="0"  wait="false"  ]
 [free_layermode  time="0"  wait="false"  ]
-[bg  time="1000"  method="crossfade"  storage="bg_base.png"  ]
+[bg  time="1000"  method="crossfade"  storage="39.png"  ]
 [tb_autosave  title="end"  ]
 *reset
 
