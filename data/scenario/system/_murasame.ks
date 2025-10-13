@@ -1,0 +1,7 @@
+[preload  storage="./data/bgimage/room01.jpg"  ]
+[preload  storage="./data/fgimage/default/UI.png"  ]
+[preload  storage="./data/fgimage/chara/3/same01_ki.png"  ]
+[preload  storage="./data/fgimage/chara/3/same02_do.png"  ]
+[preload  storage="./data/fgimage/chara/3/same04_raku.png"  ]
+[preload  storage="./data/fgimage/chara/3/same03_ai.png"  ]
+[return]

@@ -1,0 +1,8 @@
+[preload  storage="./data/bgimage/room01.jpg"  ]
+[preload  storage="./data/fgimage/default/UI.png"  ]
+[preload  storage="./data/fgimage/chara/1/mafu01_Ki_a.png"  ]
+[preload  storage="./data/fgimage/chara/1/mafu01_raku_a.png"  ]
+[preload  storage="./data/fgimage/chara/1/mahu04_gyo.png"  ]
+[preload  storage="./data/fgimage/chara/1/mafu02_do_a.png"  ]
+[preload  storage="./data/bgimage/kitchen.png"  ]
+[return]

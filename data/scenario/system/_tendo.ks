@@ -1,0 +1,8 @@
+[preload  storage="./data/bgimage/room01.jpg"  ]
+[preload  storage="./data/fgimage/default/UI.png"  ]
+[preload  storage="./data/fgimage/chara/5/yumi01_ki.png"  ]
+[preload  storage="./data/fgimage/chara/5/yumi04_raku.png"  ]
+[preload  storage="./data/fgimage/chara/5/yumi03_ai.png"  ]
+[preload  storage="./data/fgimage/chara/5/yumi02_do.png"  ]
+[preload  storage="./data/bgimage/kitchen.png"  ]
+[return]
