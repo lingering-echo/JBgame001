@@ -100,7 +100,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu01_raku_a.png"  ]
+[chara_mod  name="真経津晨"  time="400"  cross="false"  storage="chara/1/mafu01_raku.png"  ]
 [tb_start_text mode=1 ]
 「カマかけようとしたでしょ～、獅子神さん」[p]
 #獅子神
