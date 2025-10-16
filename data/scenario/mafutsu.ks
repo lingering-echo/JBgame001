@@ -88,8 +88,8 @@
 *purin
 
 [call  storage="mafutsu.ks"  target="*remainQ"  ]
-[jump  storage="mafutsu.ks"  target="*second"  cond="f.root1>9"  ]
-[tb_eval  exp="f.root1+=10"  name="root1"  cmd="+="  op="t"  val="10"  val_2="undefined"  ]
+[jump  storage="mafutsu.ks"  target="*second"  cond="f.root1>99"  ]
+[tb_eval  exp="f.root1+=100"  name="root1"  cmd="+="  op="t"  val="100"  val_2="undefined"  ]
 *second
 
 [tb_start_text mode=1 ]
@@ -188,7 +188,7 @@
 「じゃーんけん」[p]
 [_tb_end_text]
 
-[jump  storage="mafutsu.ks"  target="*janken"  cond="f.root1<100"  ]
+[jump  storage="mafutsu.ks"  target="*janken"  cond="f.root1<1000"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="false"  vmax="5"  ]
 [tb_start_text mode=1 ]
 #
@@ -256,7 +256,7 @@
 あいつらの性格も考慮すべき、か。[p]
 [_tb_end_text]
 
-[tb_eval  exp="f.root1+=1000"  name="root1"  cmd="+="  op="t"  val="1000"  val_2="undefined"  ]
+[tb_eval  exp="f.root1+=10000"  name="root1"  cmd="+="  op="t"  val="10000"  val_2="undefined"  ]
 [jump  storage="mafutsu.ks"  target="*MQ_return"  ]
 *murasame
 

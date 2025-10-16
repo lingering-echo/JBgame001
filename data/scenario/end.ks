@@ -236,6 +236,7 @@ root4『未解決』　　(完)[p]
 [tb_eval  exp="f.root5=0"  name="root5"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_eval  exp="f.reme=0"  name="reme"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_eval  exp="f.remainQ=0"  name="remainQ"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[tb_eval  exp="f.same=0"  name="same"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_eval  exp="f.piko1=0"  name="piko1"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_eval  exp="f.piko2=0"  name="piko2"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_eval  exp="f.M5=0"  name="M5"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
@@ -457,23 +458,22 @@ root4『未解決』　　(完)[p]
 [tb_start_text mode=1 ]
 #村雨
 「それなら問題ない」[p]
-「プリンがなくなったと聞いた時、全員がかなり殺気立っていたからな。私も相当応えた」[p]
+「プリンがなくなったと聞いた時、全員がかなり殺気立っていたからな。私も相当堪えた」[p]
 「すぐに自作自演と気づいたがな」[p]
 #獅子神
 「盗み食いなんて嫌だろ？これからはもうすんなよ」[p]
 #村雨
 「それとこれとは話が違う」[p]
-
 [_tb_end_text]
 
 [chara_mod  name="村雨礼二"  time="400"  cross="false"  storage="chara/3/same04_raku.png"  ]
 [tb_start_text mode=1 ]
 #村雨
-「あなたは盗み食いがあっても食いきれない量を作っておくべきだ」[p]
-
+「あなたは盗み食いがあっても食べきれない量を作っておくべきだ」[p]
 [_tb_end_text]
 
 [chara_mod  name="獅子神敬一"  time="400"  cross="false"  storage="chara/2/sisi01_do.png"  ]
+[quake  time="300"  count="3"  hmax="10"  wait="false"  ]
 [tb_start_text mode=1 ]
 #獅子神
 「いい加減にしやがれ！明日の飯もあると思うなよ！」[p]

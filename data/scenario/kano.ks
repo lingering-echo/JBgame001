@@ -223,7 +223,7 @@
 「ありがとよ」[p]
 [_tb_end_text]
 
-[tb_eval  exp="f.root1+=5"  name="root1"  cmd="+="  op="t"  val="5"  val_2="undefined"  ]
+[tb_eval  exp="f.root1+=10"  name="root1"  cmd="+="  op="t"  val="10"  val_2="undefined"  ]
 [jump  storage="kano.ks"  target="*KQ_return"  ]
 *kitchen
 

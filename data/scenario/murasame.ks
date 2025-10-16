@@ -26,7 +26,7 @@
 [glink  color="btn_08_black"  storage="murasame.ks"  size="20"  text="冷蔵庫で何した？"  x="90"  y="180"  width=""  height=""  _clickable_img=""  target="*reizouko"  ]
 *RQ2
 
-[jump  storage="murasame.ks"  target="*RQ3"  cond="f.root1<1117"  ]
+[jump  storage="murasame.ks"  target="*RQ3"  cond="f.root1<11113"  ]
 [glink  color="btn_08_black"  storage="murasame.ks"  size="20"  text="推理を聞いてくれ"  x="90"  y="260"  width=""  height=""  _clickable_img=""  target="*root1"  ]
 *RQ3
 
@@ -127,7 +127,11 @@
 「そういうことだ、真経津には無理だろう」[p]
 [_tb_end_text]
 
-[tb_eval  exp="f.root1+=1"  name="root1"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+[jump  storage="murasame.ks"  target="*same2"  cond="f.same==1"  ]
+[tb_eval  exp="f.root1+=2"  name="root1"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
+[tb_eval  exp="f.same=1"  name="same"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+*same2
+
 [jump  storage="murasame.ks"  target="*RQ_return"  ]
 *kano
 
@@ -226,11 +230,12 @@
 
 [tb_start_text mode=1 ]
 #獅子神
-「証拠もねぇのに疑えねぇな」[p]
+「証拠はねぇし疑えねぇな」[p]
 #村雨
-「当然だ、横に天堂もいたしな」[p]
+「当然だ、当時片手にはジャケットを持っていた。これでどう5個のプリンを運びだすのだ」[p]
+「そもそも横に天堂もいたしな」[p]
 #獅子神
-「天堂は何をしてたんだ？」[p]
+「天堂は横で何をしてたんだ？」[p]
 
 [_tb_end_text]
 
@@ -240,12 +245,18 @@
 「冷蔵庫が詰まっていたので、差し入れをいれるためのスペースを作ってくれたな」[p]
 「その後はオレンジジュースをついでソファの方に戻っていったように見えたが」[p]
 #獅子神
-「天堂もプリンを5個も持ち出せる状態じゃなかったのか…」[p]
+「天堂もプリンを5個も持ち出せる状態じゃなかったってことか…」[p]
 #村雨
 「そうとも言えるな。この調子で5個の盗み食いが不可能な奴を探していくといい」[p]
 [_tb_end_text]
 
+[jump  storage="murasame.ks"  target="*GBM"  cond="sf.GBM==1"  ]
+[jump  storage="murasame.ks"  target="*second"  cond="f.root3>10"  ]
+*GBM
+
 [tb_eval  exp="f.root3+=10"  name="root3"  cmd="+="  op="t"  val="10"  val_2="undefined"  ]
+*second
+
 [jump  storage="murasame.ks"  target="*RQ_return"  ]
 *root1
 

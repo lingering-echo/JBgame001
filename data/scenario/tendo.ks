@@ -203,7 +203,7 @@
 「うるせー、じゃんけんの勝ち方のコツとかってあるのか？」[p]
 [_tb_end_text]
 
-[jump  storage="tendo.ks"  target="*janken2"  cond="f.root1>13"  ]
+[jump  storage="tendo.ks"  target="*janken2"  cond="f.root1>14"  ]
 [tb_start_text mode=1 ]
 #天堂
 「神に教えを乞うというならば、相応の礼儀というものがあるのでは？」[p]
@@ -283,7 +283,7 @@
 「神だからな」[p]
 [_tb_end_text]
 
-[tb_eval  exp="f.root1+=100"  name="root1"  cmd="+="  op="t"  val="100"  val_2="undefined"  ]
+[tb_eval  exp="f.root1+=1000"  name="root1"  cmd="+="  op="t"  val="1000"  val_2="undefined"  ]
 [jump  storage="tendo.ks"  target="*TQ_return"  ]
 *advise
 

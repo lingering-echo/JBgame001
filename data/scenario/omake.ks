@@ -3,10 +3,10 @@
 *omake_top
 
 [cm  ]
-[bg  time="500"  method="fadeIn"  storage="bg_base.png"  ]
-[glink  color="btn_01_black"  storage="omake.ks"  size="20"  autopos="true"  text="真経津じゃんけん"  x="100"  y="100"  width=""  height=""  _clickable_img=""  target="*jyanken"  ]
-[glink  color="btn_01_black"  storage="omake.ks"  size="20"  autopos="true"  text="クレジット"  x="100"  y="100"  width=""  height=""  _clickable_img=""  target="*credit"  ]
-[glink  color="btn_01_black"  storage="title_screen.ks"  size="20"  text="タイトルに戻る"  autopos="true"  target="*title"  x="100"  y="100"  width=""  height=""  _clickable_img=""  ]
+[bg  time="500"  method="fadeIn"  storage="BG2.png"  ]
+[glink  color="btn_01_red"  storage="omake.ks"  size="20"  autopos="true"  text="ギャンブラーモード"  x="100"  y="100"  width=""  height=""  _clickable_img=""  target="*jyanken"  ]
+[glink  color="btn_01_yellow"  storage="omake.ks"  size="20"  autopos="true"  text="クレジット"  x="100"  y="100"  width=""  height=""  _clickable_img=""  target="*credit"  ]
+[glink  color="btn_01_white"  storage="title_screen.ks"  size="20"  text="タイトルに戻る"  autopos="true"  target="*0"  x="100"  y="100"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *credit
 
@@ -18,8 +18,31 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ガイド
-現在準備中です(エアブーの頃に実装します)[p]
+Root3の一部手順をスキップして不正クリアが出来るようになる『ギャンブラーモード』を解放しますか？(未クリアの方にはおすすめしません)[p]
 [_tb_end_text]
+
+[glink  color="btn_07_black"  storage="omake.ks"  size="20"  text="はい"  autopos="true"  target="*yes"  x="100"  y="100"  width=""  height=""  _clickable_img=""  ]
+[glink  color="btn_07_black"  storage="omake.ks"  size="20"  text="いいえ"  target="*no"  x="100"  y="100"  width=""  height=""  _clickable_img=""  autopos="true"  ]
+[s  ]
+*yes
+
+[tb_start_text mode=1 ]
+#ガイド
+『ギャンブラーモード』が解放されました。[p]
+先程の画面でいいえを選ぶとオフにすることが出来ます。[p]
+[_tb_end_text]
+
+[tb_eval  exp="sf.GBM=1"  name="GBM"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[jump  storage="omake.ks"  target="*GBM02"  ]
+*no
+
+[tb_start_text mode=1 ]
+#ガイド
+『ギャンブラーモード』は現在オフの状態です。[p]
+[_tb_end_text]
+
+[tb_eval  exp="sf.GBM=0"  name="GBM"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+*GBM02
 
 [tb_hide_message_window  ]
 [jump  storage="omake.ks"  target="*omake_top"  ]

@@ -76,6 +76,7 @@
 [tb_eval  exp="f.root3=0"  name="root3"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_eval  exp="f.root5=0"  name="root5"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_eval  exp="f.reme=0"  name="reme"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[tb_eval  exp="f.same=0"  name="same"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_eval  exp="f.remainQ=0"  name="remainQ"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_eval  exp="f.piko1=0"  name="piko1"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_eval  exp="f.piko2=0"  name="piko2"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
@@ -97,6 +98,10 @@
 [jump  storage="scene2.ks"  target="*root5_2"  cond="sf.clear1!=1"  ]
 [jump  storage="scene2.ks"  target="*root5_2"  cond="sf.clear2!=1"  ]
 [jump  storage="scene2.ks"  target="*root5_2"  cond="sf.clear3!=1"  ]
+[jump  storage="scene2.ks"  target="*root5_2"  cond="f.M5!=1"  ]
+[jump  storage="scene2.ks"  target="*root5_2"  cond="f.R5!=1"  ]
+[jump  storage="scene2.ks"  target="*root5_2"  cond="f.K5!=1"  ]
+[jump  storage="scene2.ks"  target="*root5_2"  cond="f.T5!=1"  ]
 [tb_eval  exp="f.root5=100"  name="root5"  cmd="="  op="t"  val="100"  val_2="undefined"  ]
 *root5_2
 
