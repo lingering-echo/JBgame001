@@ -309,7 +309,7 @@
 「叶も十分怪しいな…」[p]
 [_tb_end_text]
 
-[tb_eval  exp="f.root2+=10"  name="root2"  cmd="+="  op="t"  val="10"  val_2="undefined"  ]
+[tb_eval  exp="f.reme+=10"  name="reme"  cmd="+="  op="t"  val="10"  val_2="undefined"  ]
 [jump  storage="mafutsu.ks"  target="*MQ_return"  ]
 *tendo
 
