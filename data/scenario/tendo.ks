@@ -22,7 +22,7 @@
 [glink  color="btn_08_blue"  storage="tendo.ks"  size="20"  text="村雨について"  x="1010"  y="180"  width=""  height=""  _clickable_img=""  target="*murasame"  ]
 [glink  color="btn_08_purple"  storage="tendo.ks"  size="20"  text="叶について"  x="1021"  y="260"  width=""  height=""  _clickable_img=""  target="*kano"  ]
 [glink  color="btn_08_black"  storage="tendo.ks"  size="20"  text="雑談する"  y="340"  x="1033"  width=""  height=""  _clickable_img=""  target="*talk"  ]
-[jump  storage="tendo.ks"  target="*TQ２"  cond="f.root1<9"  ]
+[jump  storage="tendo.ks"  target="*TQ２"  cond="f.root1<100"  ]
 [glink  color="btn_08_black"  storage="tendo.ks"  size="20"  text="じゃんけんの勝ち方"  x="80"  y="180"  width=""  height=""  _clickable_img=""  target="*janken"  ]
 *TQ２
 

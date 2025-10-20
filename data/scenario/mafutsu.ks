@@ -24,7 +24,7 @@
 *MQ1
 
 [glink  color="btn_08_yellow"  storage="mafutsu.ks"  size="20"  text="雑談する"  x="1035"  y="340"  width=""  height=""  _clickable_img=""  target="*purin"  ]
-[jump  storage="mafutsu.ks"  target="*MQS1"  cond="f.root1<10"  ]
+[jump  storage="mafutsu.ks"  target="*MQS1"  cond="f.root1<100"  ]
 [glink  color="btn_08_black"  storage="mafutsu.ks"  size="20"  text="じゃんけんすんぞ"  target="*lets_janken"  x="90"  y="260"  width=""  height=""  _clickable_img=""  ]
 *MQS1
 
