@@ -203,7 +203,7 @@
 「うるせー、じゃんけんの勝ち方のコツとかってあるのか？」[p]
 [_tb_end_text]
 
-[jump  storage="tendo.ks"  target="*janken2"  cond="f.root1>14"  ]
+[jump  storage="tendo.ks"  target="*janken2"  cond="f.root1>109"  ]
 [tb_start_text mode=1 ]
 #天堂
 「神に教えを乞うというならば、相応の礼儀というものがあるのでは？」[p]
