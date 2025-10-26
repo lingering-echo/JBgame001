@@ -166,7 +166,7 @@
 
 [tb_ptext_hide  time="1000"  ]
 [tb_start_tyrano_code]
-[ptext layer="2" text="&f.win" x="240" y="120" size="40" color="orange" name="MQ" width="256" align="center" overwrite="true"]
+[ptext layer="2" text="&f.win" x="240" y="135" size="40" color="orange" name="MQ" width="256" align="center" overwrite="true"]
 [_tb_end_tyrano_code]
 
 [return  ]
