@@ -29,4 +29,7 @@ f['R5']=0;
 f['K5']=0; 
 f['T5']=0; 
 f['same']=0; 
+f['janken']=1; 
+f['mj']=1; 
+f['win']=0; 
 [endscript] 

@@ -1,0 +1,8 @@
+[preload  storage="./data/bgimage/room01.jpg"  ]
+[preload  storage="./data/fgimage/default/UI_wins.png"  ]
+[preload  storage="./data/fgimage/chara/1/mafu01_raku_gu.png"  ]
+[preload  storage="./data/fgimage/chara/1/mafu01_raku_choki.png"  ]
+[preload  storage="./data/fgimage/chara/1/mafu01_ki.png"  ]
+[preload  storage="./data/fgimage/chara/1/mahu04_gyo.png"  ]
+[preload  storage="./data/fgimage/chara/1/mafu01_raku.png"  ]
+[return]

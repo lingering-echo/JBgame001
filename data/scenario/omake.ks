@@ -2,10 +2,13 @@
 
 *omake_top
 
+[tb_eval  exp="f.win=0"  name="win"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [cm  ]
 [bg  time="500"  method="fadeIn"  storage="BG2.png"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[glink  color="btn_01_yellow"  storage="janken.ks"  size="20"  text="真経津じゃんけん"  x="100"  y="100"  width=""  height=""  _clickable_img=""  autopos="true"  target="*janken"  ]
 [glink  color="btn_01_red"  storage="omake.ks"  size="20"  autopos="true"  text="ギャンブラーモード"  x="100"  y="100"  width=""  height=""  _clickable_img=""  target="*jyanken"  ]
-[glink  color="btn_01_yellow"  storage="omake.ks"  size="20"  autopos="true"  text="クレジット"  x="100"  y="100"  width=""  height=""  _clickable_img=""  target="*credit"  ]
+[glink  color="btn_01_purple"  storage="omake.ks"  size="20"  autopos="true"  text="クレジット"  x="100"  y="100"  width=""  height=""  _clickable_img=""  target="*credit"  ]
 [glink  color="btn_01_white"  storage="title_screen.ks"  size="20"  text="タイトルに戻る"  autopos="true"  target="*0"  x="100"  y="100"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *credit
